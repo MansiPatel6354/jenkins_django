@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if[-d "envv"];
+if [-d "envv"];
 
 then
   echo "python virtual envv exists"
@@ -16,7 +16,7 @@ source env/bin/activate
 pip3 install -r requirements.txt
 
 
-if[-d "logs"];
+if [-d "logs"];
 
 then
   echo "log folder exists"
