@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+  <div class="text-center">
+    <img src="{% static 'images/krishna.jpg' %}" alt="profilepic"
+    class="img-thumbnail" width="250px" height="150px">
+  </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold">Hello,</h1>
+        <div class="px-4" style="line-height:2rem;">
+            <p style="text-indent:100px;">I am <b class="text-warning"> Mansi patel </b>
+                having 5 year of full-stack web development experience for globle bisinesses,
+                I offer the technical expertise you are seeking for your web developer position.</p>
+            <p>A paragraph is a <b class="text-warning">collection of words </b>bstrung together to make a longer unit than a sentence.
+                Several sentences often make a paragraph.There are normally three to eight sentences in a paragraph.
+                Paragraphs can start with a five-space indentation or by skipping a line and then starting over.</p>
+        </div>
+    </div>
+    <div class="text-center"> 
+       <a href="" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+       <a href="" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+</div>
+{% endblock content %}
