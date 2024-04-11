@@ -17,14 +17,7 @@ pipeline{
                 '''
             }
             }
-        stage('setup NGINX'){
-            steps{
-                sh '''
-                chmod +x nginx.sh
-                ./nginx.sh
-                '''
-            }
-        }
+    
 
     }
 }
